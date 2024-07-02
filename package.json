@@ -1,12 +1,12 @@
 {
-  "name": "ts-starter",
+  "name": "mURL",
   "version": "1.0.0",
-  "description": "There are many like it, but this one is mine.",
+  "description": "An immutable URL builder",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
     "build:prod": "rollup -c && NODE_ENV=production rollup -c",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'tsx src/index.ts'",
+    "dev": "nodemon",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
